@@ -30,6 +30,6 @@ class GFG {
 
 class Solution {
     public long minOperations(int N) {
-        return  (((long) N * (long) N) / 4);
+        return ((long) N * (long) N) / 4;
     }
 }
