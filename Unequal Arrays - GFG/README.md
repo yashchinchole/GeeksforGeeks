@@ -45,9 +45,9 @@ You don't need to read input or print anything. Your task is to complete the fun
 <strong>Expected Auxiliary Space:</strong> O(N)</span></p>
 
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
-1 &lt;= N &lt;= 10<sup>5</sup><br>
--10<sup>9</sup> &lt;= A[i] &lt;= 10<sup>9</sup><br>
--10<sup>9</sup> &lt;= B[i] &lt;= 10<sup>9</sup></span></p>
+1 &lt;= N &lt;= 10<sup style="">5</sup><br>
+-10<sup style="">9</sup> &lt;= A[i] &lt;= 10<sup style="">9</sup><br>
+-10<sup style="">9</sup> &lt;= B[i] &lt;= 10<sup style="">9</sup></span></p>
 
 <p>&nbsp;</p>
 </div>
