@@ -24,18 +24,13 @@ class GFG {
 
 
 // User function Template for Java
-
 class Solution {
     static int dataTypeSize(String str) {
-        // code here
-       int ans = 0;
-        if (str.equalsIgnoreCase("Integer") || str.equalsIgnoreCase("Float")) {
-            ans = 4;
-        } else if (str.equalsIgnoreCase("Character")) {
-            ans = 1;
-        } else if (str.equalsIgnoreCase("Double") || str.equalsIgnoreCase("Long")) {
-            ans = 8;
-        }
-        return ans;
+        if (str.matches("Character"))
+            return 1;
+        else if (str.matches("Integer") || str.matches("Float"))
+            return 4;
+        else
+            return 8;
     }
 }
