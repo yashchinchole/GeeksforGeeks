@@ -26,6 +26,7 @@ class GFG {
 
 class Solution {
     public static int minimumSum(String s) {
+        int ans = 0;
         int l = s.length();
         char[] arr = s.toCharArray();
         int i = 0, j = l - 1;
@@ -41,15 +42,14 @@ class Solution {
             j--;
         }
 
-        int sum = 0;
         char prev = 'A';
         for (i = 0; i < l / 2; i++) {
             if (arr[i] != '?') {
                 if (prev != 'A')
-                    sum += Math.abs(prev - arr[i]);
+                    ans += Math.abs(prev - arr[i]);
                 prev = arr[i];
             }
         }
-        return sum * 2;
+        return ans * 2;
     }
 }
