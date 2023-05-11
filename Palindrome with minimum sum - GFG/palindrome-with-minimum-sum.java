@@ -24,6 +24,8 @@ class GFG {
 // } Driver Code Ends
 
 
+
+
 class Solution {
     public static int minimumSum(String s) {
         int ans = 0;
@@ -42,10 +44,10 @@ class Solution {
             j--;
         }
 
-        char prev = 'A';
+        char prev = '!';
         for (i = 0; i < l / 2; i++) {
             if (arr[i] != '?') {
-                if (prev != 'A')
+                if (prev != '!')
                     ans += Math.abs(prev - arr[i]);
                 prev = arr[i];
             }
