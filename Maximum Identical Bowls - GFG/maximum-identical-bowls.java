@@ -56,11 +56,11 @@ class GFG {
 
 class Solution {
     public static int getMaximum(int N, int[] arr) {
-        long num = 0;
+        long ans = 0;
         for (int i : arr)
-            num += i;
+            ans += i;
         for (int i = N; i > 0; i--)
-            if (num % i == 0)
+            if (ans % i == 0)
                 return i;
         return 0;
     }
