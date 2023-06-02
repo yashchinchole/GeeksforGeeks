@@ -74,13 +74,13 @@ class Complete {
         return primes.get(max - 1);
     }
 
-    static void DFS(ArrayList<ArrayList<Integer>> adj, int s, boolean[] visitedited) {
-        visitedited[s] = true;
+    static void DFS(ArrayList<ArrayList<Integer>> adj, int s, boolean[] visited) {
+        visited[s] = true;
         count++;
 
         for (int u : adj.get(s))
-            if (visitedited[u] == false)
-                DFS(adj, u, visitedited);
+            if (visited[u] == false)
+                DFS(adj, u, visited);
     }
 
     static void precompute() {
