@@ -1,0 +1,21 @@
+# Column name from a given column number
+## Medium
+<div class="problems_problem_content__Xm_eO" speechify-initial-font-family="Roboto, sans-serif" speechify-initial-font-size="16px"><p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Given a positive integer, return its corresponding column title as appear in an Excel sheet.<br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Excel columns has a pattern like A, B, C, … ,Z, AA, AB, AC,…. ,AZ, BA, BB, … ZZ, AAA, AAB ….. etc. In other words, column 1 is named as “A”, column 2 as “B”, column 27 as “AA” and so on.</span></p>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Example 1:</strong></span></p>
+<pre speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Input:</strong>
+N = 28
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Output:</strong> AB
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Explanation</strong>: 1 to 26 are A to Z.
+Then, 27 is AA and 28 = AB.
+</span>
+</pre>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Example 2:</strong></span></p>
+<pre speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Input</strong>: 
+N = 13
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Output:</strong> M
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Explanation</strong>: M is the 13th character of
+alphabet.</span>
+</pre>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Your Task:</strong><br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">colName()&nbsp;</strong>which takes the column number&nbsp;N as input and returns the column name represented as a string.</span><br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Expected Time Complexity: </strong>O(LogN).<br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Expected Auxiliary Space:&nbsp;</strong>O(1).</span></p>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Constraints:</strong><br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">1 &lt;= N &lt;= 10<sup speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">18</sup></span></p>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">&nbsp;</p></div>
