@@ -1,0 +1,22 @@
+# Count number of substrings
+## Medium
+<div class="problems_problem_content__Xm_eO" speechify-initial-font-family="Roboto, sans-serif" speechify-initial-font-size="16px"><p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Given a string of lowercase alphabets, count all possible <strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">substrings </strong>(not necessarily distinct) that have <strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">exactly k distinct</strong> characters.&nbsp;</span></p>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Example 1:</strong></span></p>
+<pre speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Input:</strong>
+S = "aba", K = 2
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Output:</strong>
+3
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Explanation</strong>:
+The substrings are: "ab", "ba" and "aba".</span>
+</pre>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Example 2:</strong></span></p>
+<pre speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Input</strong>: 
+S = "abaaca", K = 1
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Output:</strong>
+7
+<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Explanation</strong>:
+The substrings are: "a", "b", "a", "aa", "a", "c", "a". </span>
+</pre>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Your Task:</strong><br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">substrCount()&nbsp;</strong>which takes the string S and an integer K as inputs and returns the number of substrings having exactly K distinct characters.</span></p>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Expected Time Complexity: </strong>O(|S|).<br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Expected Auxiliary Space:&nbsp;</strong>O(1).</span></p>
+<p speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><span style="font-size: 18px;" speechify-initial-font-family="urw-din" speechify-initial-font-size="17px"><strong speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">Constraints:</strong><br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">1 ≤ |S| ≤ 10<sup speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">6</sup><br speechify-initial-font-family="urw-din" speechify-initial-font-size="17px">1 ≤ K ≤ 26</span></p></div>
